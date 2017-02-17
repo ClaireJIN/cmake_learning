@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jutta/cmake_demo2/include/sum.h
+
+/home/jutta/cmake_demo2/src/main/main.c
+stdio.h
+-
+../../include/sum.h
+/home/jutta/cmake_demo2/include/sum.h
+
